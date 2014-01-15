@@ -73,7 +73,7 @@ abstract class PHPUnit_Util_PHP
      * Runs a single job (PHP code) using a separate PHP process.
      *
      * @param  string                       $job
-     * @param  PHPUnit_Framework_TestCase   $test
+     * @param  PHPUnit_Framework_Test       $test
      * @param  PHPUnit_Framework_TestResult $result
      * @return array|null
      * @throws PHPUnit_Framework_Exception
